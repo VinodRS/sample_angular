@@ -1,6 +1,6 @@
 # HelloWorld Containerized Angular Webapp
 
-This is a simple web app that fetches data from the dotnet API built in lesson 1. Follow along with the [tutorial here](http://localhost:4000/KubernetesAITutorial_2/)
+This is a simple web app that fetches data from the dotnet API
 
 ## Prerequisites
 
@@ -17,7 +17,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Dockerize the application and run the container
 
 ```shell
-# For me this directory is 'angular-dotnet-webapp-tutorial/Lesson 2 - Angular App'
+# For me this directory is 'sample app'
 cd </directory/to/webapp> 
 docker build -t webapp:v1 .
 docker run -it --rm -p 8081:80 webapp:v1

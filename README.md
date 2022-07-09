@@ -17,7 +17,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 ## Dockerize the application and run the container
 
 ```shell
-# For me this directory is 'sample app'
+# For me this directory is 'sample_angular'
 cd </directory/to/webapp> 
 docker build -t webapp:v1 .
 docker run -it --rm -p 8081:80 webapp:v1
